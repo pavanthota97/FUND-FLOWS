@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const { Option } = Select;
 
-const Colevies = () => {
+const ColeviesList = () => {
   const [isnewrecord, setisnewrecord] = useState(false);
   const [data, setData] = useState([]);
 
@@ -307,4 +307,4 @@ const Colevies = () => {
   );
 };
 
-export default Colevies;
+export default ColeviesList;
